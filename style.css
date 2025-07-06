@@ -13,9 +13,10 @@ body{
   border-radius: 20px 0 0 20px;
   height: 550px;
   width: 45%;
-  padding: 10px 30px;
+  padding: 10px 31px;
+  
 }
-.top{
+.top, .top-right{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -28,4 +29,37 @@ body{
   border-radius: 0 20px 20px 0;
   height: 550px;
   width: 500px;
+}
+.hero-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero-text p{
+  color: gray;
+  margin: 0;
+}
+form{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+input, button{
+  height: 50px;
+  background-color: #f5f7f9;
+  border:none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+form p{
+  color: #00cf23;
+  margin-top: 0;
+}
+form button{
+  background-color: black;
+  color: white;
 }
