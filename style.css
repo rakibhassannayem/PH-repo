@@ -1,0 +1,31 @@
+body{
+  background-color: rgb(229, 246, 229);
+  padding: 0;
+  margin: 0;
+}
+.container {
+  border-radius: 20px;
+  margin: 70px 250px;
+  display: flex;
+}
+.left {
+  background-color: white;
+  border-radius: 20px 0 0 20px;
+  height: 550px;
+  width: 45%;
+  padding: 10px 30px;
+}
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top select{
+  border: none;
+  outline: none;
+}
+.right img {
+  border-radius: 0 20px 20px 0;
+  height: 550px;
+  width: 500px;
+}
